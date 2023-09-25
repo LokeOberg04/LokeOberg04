@@ -5,7 +5,7 @@
 - 📖 I am currently studying at NTI
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: idk
-- [Portfolio](index.html)
+- [Portfolio](https://lokeoberg04.github.io/LokeOberg04/)
 
 
 ## Cool things 😎
