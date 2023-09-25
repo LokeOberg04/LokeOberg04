@@ -1,19 +1,19 @@
 ### Hej c:
 ## Om mig
 
-- 🔭 Just nu arbetar jag på någonting viktigt
-- 🌱 Just nu lär jag mig någonting viktigt
-- 👯 Jag skulle villa samarbeta med @JohnCena
-- 💬 Fråga inte mig hur mycket overwatch jag kör
-- 📫 Kontakta mig helst inte
+- 🔭 I’m currently working on something important
+- 🌱 I’m currently learning hopefully something important
+- 👯 I’m looking to collaborate with @JohnCena
+- 💬 Dont ask me how much Overwatch I play
+- 📫 How to reach me: Dont
 - 😄 Pronouns: :з
-- ⚡ Fun fact: Vet inte
+- ⚡ Fun fact: idk
 
-## Här finns några exempel på vad jag har gjort
+## Here are some examples of what I've done
 
 - [Pizzeria](http://lokeoberg04.github.io/te4-pizza/)
 
-## Koola saker 😎
+## Cool things 😎
 
 [![Lokes GitHub stats](https://github-readme-stats.vercel.app/api?username=LokeOberg04&show_icons=true&theme=synthwave)](https://github.com/LokeOberg04/github-readme-stats)
 
