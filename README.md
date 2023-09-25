@@ -1,4 +1,5 @@
-### Halloj 😎
+### Hej c:
+## Om mig
 
 - 🔭 Just nu arbetar jag på någonting viktigt
 - 🌱 Just nu lär jag mig någonting viktigt
@@ -11,6 +12,10 @@
 ## Här finns några exempel på vad jag har gjort
 
 - [Pizzeria](http://lokeoberg04.github.io/te4-pizza/)
+
+## Koola saker 😎
+
+[![Lokes GitHub stats](https://github-readme-stats.vercel.app/api?username=LokeOberg04&show_icons=true&theme=synthwave)](https://github.com/LokeOberg04/github-readme-stats)
 
 <!--
 **LokeOberg04/LokeOberg04** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
