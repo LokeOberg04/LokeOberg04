@@ -17,7 +17,7 @@
 
 [![Lokes GitHub stats](https://github-readme-stats.vercel.app/api?username=LokeOberg04&show_icons=true&theme=synthwave)](https://github.com/LokeOberg04/github-readme-stats)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LokeOberg04&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LokeOberg04&layout=compact&theme=synthwave)
 
 <!--
 **LokeOberg04/LokeOberg04** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
