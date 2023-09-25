@@ -1,4 +1,16 @@
-### Hi there 👋
+### Halloj 😎
+
+- 🔭 Just nu arbetar jag på någonting viktigt
+- 🌱 Just nu lär jag mig någonting viktigt
+- 👯 Jag skulle villa samarbeta med @JohnCena
+- 💬 Fråga mig on min overwatch rank
+- 📫 Kontakta mig helst inte
+- 😄 Pronouns: ok/ok
+- ⚡ Fun fact: Vet inte
+
+## Här finns några exempel på vad jag har gjort
+
+- lokeoberg04.github.io/te4-pizza/
 
 <!--
 **LokeOberg04/LokeOberg04** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
