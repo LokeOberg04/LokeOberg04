@@ -3,7 +3,7 @@
 - 🔭 Just nu arbetar jag på någonting viktigt
 - 🌱 Just nu lär jag mig någonting viktigt
 - 👯 Jag skulle villa samarbeta med @JohnCena
-- 💬 Fråga mig om min overwatch rank
+- 💬 Fråga inte mig hur mycket overwatch jag kör
 - 📫 Kontakta mig helst inte
 - 😄 Pronouns: :з
 - ⚡ Fun fact: Vet inte
