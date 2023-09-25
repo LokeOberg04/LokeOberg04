@@ -5,7 +5,7 @@
 - 👯 Jag skulle villa samarbeta med @JohnCena
 - 💬 Fråga mig on min overwatch rank
 - 📫 Kontakta mig helst inte
-- 😄 Pronouns: ok/ok
+- 😄 Pronouns: :з
 - ⚡ Fun fact: Vet inte
 
 ## Här finns några exempel på vad jag har gjort
