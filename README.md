@@ -1,12 +1,9 @@
 ### Hello c:
 ## About me
 
-- 🔭 I’m currently working on something important
-- 🌱 I’m currently learning hopefully something important
-- 👯 I’m looking to collaborate with @JohnCena
-- 💬 Dont ask me how much Overwatch I play
-- 📫 How to reach me: Dont
-- 😄 Pronouns: :з
+- 🏠 I live in a small village called Obbola in sweden
+- 📖 I am currently studying at NTI
+- 😄 Pronouns: He/Him
 - ⚡ Fun fact: idk
 
 ## Here are some examples of what I've done
