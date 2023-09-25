@@ -1,5 +1,5 @@
-### Hej c:
-## Om mig
+### Hello c:
+## About me
 
 - 🔭 I’m currently working on something important
 - 🌱 I’m currently learning hopefully something important
