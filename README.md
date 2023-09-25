@@ -1,16 +1,18 @@
-### Halloj 😎
+### Hello c:
+## About me
 
-- 🔭 Just nu arbetar jag på någonting viktigt
-- 🌱 Just nu lär jag mig någonting viktigt
-- 👯 Jag skulle villa samarbeta med @JohnCena
-- 💬 Fråga inte mig hur mycket overwatch jag kör
-- 📫 Kontakta mig helst inte
-- 😄 Pronouns: :з
-- ⚡ Fun fact: Vet inte
+- 🏠 I live in a small village called Obbola in sweden
+- 📖 I am currently studying at NTI
+- 😄 Pronouns: He/Him
+- ⚡ Fun fact: idk
+- [Portfolio](index.html)
 
-## Här finns några exempel på vad jag har gjort
 
-- [Pizzeria](http://lokeoberg04.github.io/te4-pizza/)
+## Cool things 😎
+
+[![Lokes GitHub stats](https://github-readme-stats.vercel.app/api?username=LokeOberg04&show_icons=true&theme=synthwave)](https://github.com/LokeOberg04/github-readme-stats)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LokeOberg04&layout=compact&theme=synthwave)
 
 <!--
 **LokeOberg04/LokeOberg04** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
