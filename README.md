@@ -10,7 +10,7 @@
 
 ## Här finns några exempel på vad jag har gjort
 
-- lokeoberg04.github.io/te4-pizza/
+- [Pizzeria](lokeoberg04.github.io/te4-pizza/)
 
 <!--
 **LokeOberg04/LokeOberg04** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
