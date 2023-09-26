@@ -54,7 +54,8 @@ body {
     margin: 0;
     height: 100%;
     justify-content: center;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 main {
@@ -67,8 +68,22 @@ a {
 }
 
 nav {
+    position: fixed;
+    display: flex;
     background-color: var(--color-secondary);
-    height: 7%;
+    width: 100%;
+    height: 3rem;
+    justify-content: end;
+    top: 0;
+}
+
+nav a {
+    border-color: #151515;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 1rem;
+    text-decoration-line: none;
+    color: white;
 }
 
 img {
@@ -92,7 +107,7 @@ button {
 
 .citem {
     display: grid;
-    grid-template-columns: [col1] 50% [col2] 50%
+    grid-template-columns: [col1] auto [col2] auto
 }
 
 .item-1 {
