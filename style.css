@@ -107,7 +107,7 @@ button {
 
 .citem {
     display: grid;
-    grid-template-columns: [col1] auto [col2] auto
+    grid-template-columns: [col1] auto [col2] 50%
 }
 
 .item-1 {
