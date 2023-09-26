@@ -54,10 +54,19 @@ body {
     margin: 0;
     height: 100%;
     justify-content: center;
+}
+
+main {
     padding-left: 33%;
     padding-right: 33%;
+    padding-top: 10%;
 }
 
 a {
     color: var(--color-tertiary2);
+}
+
+nav {
+    background-color: var(--color-primary2);
+    height: 10%;
 }
