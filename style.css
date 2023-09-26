@@ -119,3 +119,7 @@ button {
     grid-column-start: 2;
     grid-column-end: 3;
 }
+
+:target {
+    scroll-margin-top: 3rem;
+}
