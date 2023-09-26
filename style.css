@@ -76,9 +76,9 @@ img {
 }
 
 button {
-    color: var(--color-primary1);
+    color: var(--color-primary2);
     background-color: var(--color-tertiary1);
-    border-color: var(--color-tertiary2);
+    border-color: var(--color-tertiary1);
     border-radius: 5%;
     height: 2rem;
     width: 5rem;
