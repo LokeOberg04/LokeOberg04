@@ -2,7 +2,7 @@
 ## About me
 
 - 🏠 I live in a small village called Obbola in sweden
-- 📖 I am currently studying not at NTI
+- 📖 I am currently studying at Futuregames to become a Game Programmer
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: idk
 - 🖥 Hobbies: Animals and Video games
