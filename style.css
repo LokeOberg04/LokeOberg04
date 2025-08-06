@@ -33,10 +33,11 @@
     /* Custom pairs */
     --space-s-l: clamp(1.13rem, calc(0.65rem + 2.39vw), 2.50rem);
 
-    --color-primary1: #151515;
+    --color-primary1: #101010;
+    --color-card: #252525;
     --color-primary2: #F9F4F5;
-    --color-secondary: #3a2237;
-    --color-tertiary1: #70587C;
+    --color-secondary: #6b0505;
+    --color-tertiary1: #960e0e;
     --color-tertiary2: #C8B8DB;
     --color-border: #C7C7C7;
 }
@@ -87,37 +88,81 @@ nav a {
 }
 
 img {
-    padding: 1rem;
+    width:6rem;
 }
 
 button {
     color: var(--color-primary2);
     background-color: var(--color-tertiary1);
     border-color: var(--color-tertiary1);
-    border-radius: 5%;
+    box-shadow: none;
+    border-radius: .5rem;
     height: 2rem;
-    width: 5rem;
+    width: 6rem;
+    border-style: solid;
+    margin: 10px;
 }
 
 .contact {
     display: grid;
+    gap: 1rem;
+    grid-template-columns: auto auto;
     padding-bottom: 2rem;
     align-items: center;
+    margin: auto;
+    width: 100%;
 }
 
 .citem {
+    background-color: var(--color-card);
     display: grid;
-    grid-template-columns: [col1] auto [col2] 50%
+    width: 100%;
+    height: 100%;
+    border: 1px solid #aaaaaa;
+    border-radius: 1rem;
 }
 
 .item-1 {
-    grid-column-start: 1;
-    grid-column-end: 2;
+
+}
+
+.item-1 > img {
+    width:100%;
+    height: 100%;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.tags {
+display: flex;
+margin: .5rem;
+}
+
+.tag {
+    padding: 3px;
+    height: 1rem;
+    width: 4rem;
+    margin: 0 0 0 10px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: color-mix(in oklab, #c92323 20%, transparent);
+    color: #ff7575;
+}
+
+.tag > p {
+    padding: 0;
+    margin: 0;
 }
 
 .item-2 {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    height: 100%;
+    margin: auto .5rem auto .5rem;
+    align-items: center;
+    text-align: center;
+}
+
+.item-2 > * {
+    margin: 0;
 }
 
 :target {
