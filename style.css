@@ -122,16 +122,8 @@ button {
     width: 100%;
 }
 
-.projectPage > * {
-
-}
-
 .citem > p {
     margin: 16px;
-}
-
-.skills > img {
-    
 }
 
 .citem {
@@ -141,10 +133,6 @@ button {
     height: 100%;
     border: 1px solid #aaaaaa;
     border-radius: 1rem;
-}
-
-.item-1 {
-
 }
 
 .item-1 > img {
