@@ -60,8 +60,7 @@ body {
 }
 
 main {
-    padding-left: 25%;
-    padding-right: 25%;
+
 }
 
 a {
@@ -111,6 +110,28 @@ button {
     align-items: center;
     margin: auto;
     width: 100%;
+}
+
+.projectPage {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 20% 50% 20%;
+    padding-top: 1rem;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.projectPage > * {
+
+}
+
+.citem > p {
+    margin: 16px;
+}
+
+.skills > img {
+    
 }
 
 .citem {
@@ -167,4 +188,9 @@ margin: .5rem;
 
 :target {
     scroll-margin-top: 3rem;
+}
+
+.container {
+    padding-left: 20%;
+    padding-right: 20%;
 }
