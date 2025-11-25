@@ -147,6 +147,7 @@ button {
 
 .infoCitem > img {
     width: auto;
+    max-width: 90%;
 }
 
 .infoCitem > p,h1,h2,img {
