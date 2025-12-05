@@ -19,65 +19,99 @@
         <div></div>
         <div class="infoCitem">
             <h1>Scrap Gunsmith</h1>
-            <p>I was responsible for creating the inventory, item system and map generation. Most of the logic for these were made in blueprints due to the fact that we were only 2 programmers in the project, we had very little time to make the game and also the systems weren't very complicated so there wasn't a big benefit to creating them in C++. Although most of the work was done in blueprints I made sure the variables were made in C++ just in case we wanted to work in C++ in the future.
+            <p>I was responsible for creating the inventory, item system and map generation. Most of the logic for these
+                were made in blueprints due to the fact that we were only 2 programmers in the project, we had very
+                little time to make the game and also the systems weren't very complicated so there wasn't a big benefit
+                to creating them in C++. Although most of the work was done in blueprints I made sure the variables were
+                made in C++ just in case we wanted to work in C++ in the future.
 
-</p>
-<h2>Inventory</h2>
-<p>
-The inventory was a simple pointer array which contained pointers to our items that we picked up. This worked very well and it was easy to set up but I think it could have been done in a better way because if for example pick up an item, we cant remove the actor due to our inventory is just a stored pointer to that item. A better way to do this would have the item in the inventory be completely different from the actual actor in the game, this way we could delete or alter the actor however we want and it won't affect our item in our inventory.
+            </p>
+            <h2>Inventory</h2>
+            <p>
+                The inventory was a simple pointer array which contained pointers to our items that we picked up. This
+                worked very well and it was easy to set up but I think it could have been done in a better way because
+                if for example pick up an item, we cant remove the actor due to our inventory is just a stored pointer
+                to that item. A better way to do this would have the item in the inventory be completely different from
+                the actual actor in the game, this way we could delete or alter the actor however we want and it won't
+                affect our item in our inventory.
 
-The way I handled equipping items could have been done better as well. I did it by reserving slot 0-2 for equipped items, while this worked it also created a lot of confusion. For example, in this image it makes no sense to start the second for loop at the third index until you realise that the indexes 0-2 are reserved for equipped items.
-</p>
-<img src="images/GP4 add to inventory.png" alt="">
-<p>This confusion could easily be avoided by just making 3 variables that held the equipped items. This would make the code more readable and much easier to understand.
-</p>
-<h2>Item System</h2>
-<p>
-The item system, just as the inventory, works but is overcomplicated for no benefit. All items are derived from a master item class, this master class was supposed to have all the important setup for variables and functions that all items would need. The problem that arose was that ALL code was essentially made in this master class and the derived classes were essentially the master item class with an enum slapped on it. Then the master class checked the enum and changed the item depending on that enum. Instead I should have kept the essential setup in the master class and the more item specific things in the derived classes.
+                The way I handled equipping items could have been done better as well. I did it by reserving slot 0-2
+                for equipped items, while this worked it also created a lot of confusion. For example, in this image it
+                makes no sense to start the second for loop at the third index until you realise that the indexes 0-2
+                are reserved for equipped items.
+            </p>
+            <img src="images/GP4 add to inventory.png" alt="">
+            <p>This confusion could easily be avoided by just making 3 variables that held the equipped items. This
+                would make the code more readable and much easier to understand.
+            </p>
+            <h2>Item System</h2>
+            <p>
+                The item system, just as the inventory, works but is overcomplicated for no benefit. All items are
+                derived from a master item class, this master class was supposed to have all the important setup for
+                variables and functions that all items would need. The problem that arose was that ALL code was
+                essentially made in this master class and the derived classes were essentially the master item class
+                with an enum slapped on it. Then the master class checked the enum and changed the item depending on
+                that enum. Instead I should have kept the essential setup in the master class and the more item specific
+                things in the derived classes.
 
-<h2>Map Generation</h2>
-<p>
-The map generation places random modular tiles at specific spawn point depending on the previously placed tiles. The way this was done is, each tile has an entry point at 0,0 and 0-3 exit points (north,west,east).
-</p>
-<img src="images/GP4 map tile.png" alt="">
-<p>When the map generator wants to place a new tile it picks a random exit point from all tiles currently on the map, places a random tile there and if it doesnt collide with another tile then it is valid. The map generator places tiles until it has placed 5+n where n is the amount of times you have looped the game (finished a level). When it has finished placing all the tiles it generates walls around each tile and removes the wall that gets placed inside another tile. This will generate walls only around the edge of the map.
-</p>
-<img src="images/GP4 generated map.png" alt="">
-<p>
-    I would have liked to do this in a more “mathematical” way in C++ instead of using actors in unreal to do it. While this worked and was a very fast and easy way to get it done, I think I missed out on a learning experience and generating a map this way also isn't as performative as it would have been in C++.
-    </p>
-    <h2>Conclusion and Takeaways</h2>
-    <p>
-The final product turned out really well and I think it is pretty fun to play, it was made with alot of shortcuts and alot of the systems were made in a very lazy and easy way because of the time constraint. Which isn't necessarily a bad thing, because the systems are very simple and it makes debugging very easy. It would be hard/confusing to come back to this project in the future and work on it because of this though.
-</p>
-</p>
-</div>
-                <div class="infoCitem">
-                    <div class="item-1">
-                        <img src="images/GP4.png" alt="">
-                    </div>
-                    <div class="tags">
-                        <div class="tag">
-                            <p>9 People</p>
-                        </div>
-                        <div class="tag">
-                            <p>4 Weeks</p>
-                        </div>
-                        <div class="tag">
-                            <p>Unreal Engine</p>
-                        </div>
-                    </div>
-                    <div class="item-2">
-                        <p>Roguelite Twinstick Shooter in a post-apocalyptic chaotic harsh environment where the goal is to kill as many enemies as possible get the best loot and get a highscore.</p>
-                        <!-- <a aria-label="View Project" href="https://futuregames.itch.io/cold-signal"> -->
-                                                <a aria-label="View Project" href="https://futuregames.itch.io/scrapgunsmith">
-                            <button>
-                                Itch.Io Page
-                            </button>
-                        </a>
-                    </div>
-
+            <h2>Map Generation</h2>
+            <p>
+                The map generation places random modular tiles at specific spawn point depending on the previously
+                placed tiles. The way this was done is, each tile has an entry point at 0,0 and 0-3 exit points
+                (north,west,east).
+            </p>
+            <img src="images/GP4 map tile.png" alt="">
+            <p>When the map generator wants to place a new tile it picks a random exit point from all tiles currently on
+                the map, places a random tile there and if it doesnt collide with another tile then it is valid. The map
+                generator places tiles until it has placed 5+n where n is the amount of times you have looped the game
+                (finished a level). When it has finished placing all the tiles it generates walls around each tile and
+                removes the wall that gets placed inside another tile. This will generate walls only around the edge of
+                the map.
+            </p>
+            <img src="images/GP4 generated map.png" alt="">
+            <p>
+                I would have liked to do this in a more “mathematical” way in C++ instead of using actors in unreal to
+                do it. While this worked and was a very fast and easy way to get it done, I think I missed out on a
+                learning experience and generating a map this way also isn't as performative as it would have been in
+                C++.
+            </p>
+            <h2>Conclusion and Takeaways</h2>
+            <p>
+                The final product turned out really well and I think it is pretty fun to play, it was made with alot of
+                shortcuts and alot of the systems were made in a very lazy and easy way because of the time constraint.
+                Which isn't necessarily a bad thing, because the systems are very simple and it makes debugging very
+                easy. It would be hard/confusing to come back to this project in the future and work on it because of
+                this though.
+            </p>
+            </p>
+        </div>
+        <div class="infoCitem">
+            <div class="item-1">
+                <img src="images/GP4.png" alt="">
+            </div>
+            <div class="tags">
+                <div class="tag">
+                    <p>9 People</p>
                 </div>
+                <div class="tag">
+                    <p>4 Weeks</p>
+                </div>
+                <div class="tag">
+                    <p>Unreal Engine</p>
+                </div>
+            </div>
+            <div class="item-2">
+                <p>Roguelite Twinstick Shooter in a post-apocalyptic chaotic harsh environment where the goal is to kill
+                    as many enemies as possible get the best loot and get a highscore.</p>
+                <!-- <a aria-label="View Project" href="https://futuregames.itch.io/cold-signal"> -->
+                <a aria-label="View Project" href="https://futuregames.itch.io/scrapgunsmith">
+                    <button>
+                        Itch.Io Page
+                    </button>
+                </a>
+            </div>
+
+        </div>
     </main>
 </body>
 
