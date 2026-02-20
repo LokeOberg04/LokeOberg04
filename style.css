@@ -204,3 +204,22 @@ margin: .5rem;
     padding-left: 20%;
     padding-right: 20%;
 }
+
+@media (max-width: 800px)
+{
+    .contact
+    {
+    display: block;
+    }
+
+    .projectPage
+    {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+
+    .citem
+    {
+        margin-bottom: 1rem;
+    }
+}
