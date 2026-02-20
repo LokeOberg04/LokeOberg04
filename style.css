@@ -73,7 +73,7 @@ nav {
     background-color: var(--color-secondary);
     width: 100%;
     height: 3rem;
-    justify-content: end;
+    justify-content: center;
     top: 0;
 }
 
@@ -156,6 +156,56 @@ button {
     margin-bottom: 8px;
 }
 
+p,h1,h2,img
+{
+    margin: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.intro
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: none;
+    gap: 1rem;
+    grid-template-columns: 50% 50%;
+}
+
+.skills
+{
+    display: flex;
+}
+
+.introDesktop
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+}
+
+.introDesktop *
+{
+    padding: 0.25rem;
+    margin: auto;
+}
+
+.introItem1
+{
+    order: 1;
+    width: 100%;
+}
+
+.introItem2
+{
+    order: 2;
+}
+
+.introItem3
+{
+    order: 3;
+}
+
 .item-1 > img {
     width:100%;
     height: 100%;
@@ -222,4 +272,39 @@ margin: .5rem;
     {
         margin-bottom: 1rem;
     }
+
+    .introDesktop
+    {
+        display: none;
+    }
+
+    .intro
+    {
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .introItem1
+    {
+        order: 2;
+    }
+
+    .introItem2
+    {
+        order: 1;
+    }
+
+    .introItem3
+    {
+        order: 3;
+    }
+
+.skills
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 }
