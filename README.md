@@ -1,4 +1,3 @@
-### Hello c:
 ## About me
 
 - 🏠 I live in a small village called Obbola in sweden
